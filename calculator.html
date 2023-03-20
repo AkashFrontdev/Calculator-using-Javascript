@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <input type="number" class="firstNum" placeholder="First number..."><br>
+    <input type="number" class="secondNum" placeholder="Second number..."><br>
+    <button id="addition" onclick="add()">+</button>
+    <button id="substr" onclick="sub()">-</button>
+    <button id="multiple" onclick="multiple()">*</button>
+    <button id="division" onclick="division()">/</button>
+    <p id="paragraph">Your result:
+        <label id="result"></label>
+    </p>
+    <script src="./js/app.js"></script>
+</body>
+</html>
