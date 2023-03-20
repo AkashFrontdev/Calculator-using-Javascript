@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+input{
+    margin-left: 35%;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+#addition{
+    margin-left: 37%;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 24px;
+}
+#substr{
+    margin-left: 70px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 24px;
+}
+#multiple{
+    margin-left: 70px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 24px;
+}
+#division{
+    margin-left: 70px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+#paragraph{
+    margin-left: 37%;
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+}
